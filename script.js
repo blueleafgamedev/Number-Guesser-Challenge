@@ -9,7 +9,9 @@ const generateTarget = () => {
 }
 
 const compareGuesses = (userGuess, computerGuess, targetNum) => {
-  if (Math.abs(userGuess - targetNum) <  Math.abs(computerGuess - targetNum) || (Math.abs(userGuess - targetNum) === Math.abs(computerGuess - targetNum))) {
+  userGuess = Math.abs(userGuess - targetNum)
+  computerGuess = Math.abs(computerGuess - targetNum)
+  if (userGuess <= computerGuess) {
     return true
   }
   else { 
