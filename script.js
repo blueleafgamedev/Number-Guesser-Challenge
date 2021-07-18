@@ -1,3 +1,5 @@
+//This code does not include the project extension solutions listed in number 8 of the challenge.
+
 let humanScore = 0;
 let computerScore = 0;
 let currentRoundNumber = 1;
