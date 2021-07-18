@@ -1,4 +1,4 @@
-//This code does not include the project extension solutions listed in number 8 of the challenge.
+//This code does not include the additional project extension(s) listed in number 8 of this project.
 
 let humanScore = 0;
 let computerScore = 0;
